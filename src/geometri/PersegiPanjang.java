@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package geometri;
 
-/**
- *
- * @author user
- */
 public class PersegiPanjang {
+
+double panjang, lebar;
+
+public PersegiPanjang(double panjang, double lebar){
+    this.lebar = lebar;
+    this.panjang = panjang;
     
+}
+//RUMUS LUAS PERSEGI PANJANG
+double Keliling (){
+    return panjang * lebar;
+}
+
+double Luas (){
+    return 2 * (panjang + lebar);
+}
+
 }
